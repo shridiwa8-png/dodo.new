@@ -102,7 +102,7 @@ if st.button("Execute Solution ⚡"):
     Analyze the input (whether text or transcribed audio), determine the exact problem it represents, and output ONLY the final, structured, pristine solution ready for immediate use.
     """
 
-    models_to_try = ['gemini-2.0-flash', 'gemini-2.0-flash-lite']
+    models_to_try = ['gemini-3.5-flash']
     success = False
 
     try:
